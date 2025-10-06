@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: whitesmoke;
+}
+
+.logo {
+    color: white;
+    line-height: 25px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+
+    padding: 2px 2px 2px 20px;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+    /* Centers it horizontally & adds space vertically */
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.author-info {
+    display: flex;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    color: whites;
+    align-items: center;
+    background-color: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%
+}
+
+.author-details h3 {
+    line-height: 25px;
+    font-weight: lighter;
+    margin-bottom: 2px;
+    padding-left: 12px;
+}
+
+.author-details p {
+    line-height: 15px;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-left: 12px;
+}
+
+
+.blog-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-image1 {
+
+    width: 393px;
+    height: 300px;
+}
+
+.header {
+    background: #333B47;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px #333B47;
+    border-radius: 5px;
+
+
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(126, 246, 150);
+
+}
+
+.title-container {
+    padding-left: 20px;
+}
+
+.title-container h1 {
+    line-height: 25px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.author-info {
+    padding-left: 20px;
+
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0;
+    /* adds breathing space top & bottom */
+}
+
+.hero-section {
+    background: rgb(255, 255, 255);
+    width: 50vw;
+    min-height: 90vh;
+    height: auto;
+    overflow: visible;
+    margin-left: 20PX;
+    border-radius: 10px;
+
+    padding: 2px 9px 2px 9px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+span {
+    font-size: 11px
+}
+
+.article-content p {
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.article-content h2 {
+    line-height: 25px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
