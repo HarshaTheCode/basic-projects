@@ -1,100 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Blog</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="header-container">
-        <header class="header">
-            <h1 class="logo"> &nbsp;&nbsp;Blog page</h1>
-            <ul class="navbar">
-                <li><a  href="index.html">Home </a>
-                <li><a  href="about.html">About</a>
-                <li><a  href="contact.html">Contact</a>&nbsp;
-            </ul>
-        </header>
-    </div>
-    <div class="hero-container">
-
-        <main class="hero-section">
-            <div class="title-container">
-
-                <br>
-                <h1 class="title"> The Art of Modern Web Design </h1>
-                <br>
-                <span> &nbsp;Date </span> <span> | </span> <span> 5 min Read</span>
-                <hr class="seperator">
-            </div>
-
-
-
-
-            <div class="author-info">
-                <div class="avatar">HV</div>
-                <div class="author-details">
-                    <h3 class="green">Harsha</h3>
-                    <p>Web Designer & Developer</p>
-                </div>
-            </div>
-
-            <div class="article-content">
-                <div class="blog-image">
-
-                    <img src="image.png" class="blog-image1" alt="blog image ">
-                </div>
-                <p>Welcome to the world of modern web design, where creativity meets functionality. In this post, we'll
-                    explore the fundamental principles that make websites not just beautiful, but also user-friendly and
-                    engaging.</p>
-
-                <p>Web design has evolved tremendously over the past decade. Gone are the days of cluttered layouts and
-                    confusing navigation. Today's web is all about clean lines, purposeful white space, and intuitive
-                    user experiences that guide visitors effortlessly through content.</p>
-
-                <h2>The Power of Simplicity</h2>
-
-                <p>Simplicity is not about removing features or making things basic. It's about removing distractions
-                    and focusing on what truly matters. Every element on a page should serve a purpose, whether that's
-                    conveying information, guiding the user, or creating an emotional connection.</p>
-
-                <div class="quote">
-                    "Design is not just what it looks like and feels like. Design is how it works."
-                    <div class="quote-author">— Steve Jobs</div>
-                </div>
-
-                <p>Color schemes play a crucial role in setting the mood and hierarchy of your content. A well-chosen
-                    palette can evoke emotions, guide attention, and create a cohesive brand identity that resonates
-                    with your audience.</p>
-
-                <h2>Typography Matters</h2>
-
-                <p>The fonts you choose can make or break your design. Typography isn't just about making text
-                    readable—it's about creating rhythm, establishing hierarchy, and enhancing the overall aesthetic of
-                    your site. Choose fonts that complement your brand and ensure optimal readability across all
-                    devices.</p>
-
-                <p>Remember, great design is a journey, not a destination. Keep learning, experimenting, and pushing the
-                    boundaries of what's possible. Your unique perspective is what will set your work apart in this
-                    ever-evolving digital landscape.</p>
-
+    <nav>
+        <ul class="nav-links">
+            <li><a href="post/post1.html">Post</a></li>
             
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="subscribe-btn">Subscribe</button>
+    </nav>
+
+    <div class="container">
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Welcome to My Blog</h1>
+                <p>Discover stories, insights, and ideas that matter.</p>
+                
+                <h2 class="latest-posts-title">Latest Posts</h2>
             </div>
 
-        </main>
+            <div class="featured-card">
+                <div class="featured-label">FEATURED ARTICLE</div>
+                <h2>Embracing Change in a Rapidly Evolving Tech Industry</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sedur volutuariisidit reitor eit ferm optium securiss isuils.</p>
+                
+            </div>
+        </div>
+
+        <div class="posts-grid">
+            <div class="post-card">
+                <div class="post-thumbnail"></div>
+                <div class="post-content">
+                    <h3>Google's Willow Quantum Chip</h3>
+                    <p> What truly sets Willow apart isn't just its raw processing power—it's the chip's groundbreaking approach to quantum error correction. </p>
+                   <a href="post/post1.html">Read more</a>
+                </div>
+            </div>
+
+            <div class="post-card">
+                <div class="post-thumbnail"></div>
+                <div class="post-content">
+                    <h3>OpenAI's Sora 2: Revolutionizing AI Video</h3>
+                    <p>What truly distinguishes Sora 2 from its predecessor and competitors is its sophisticated understanding of the physical world</p>
+                   <p><a href="post/post2.html">Read more</a></p>
+                
+                </div>
+            </div>
+
+            <div class="post-card">
+                <div class="post-thumbnail"></div>
+                <div class="post-content">
+                    <h3>Claude Sonnet 4.5: Anthropic's Smartest AI</h3>
+                    <p>What sets Claude Sonnet 4.5 apart is its remarkable balance of power and practicality, delivering intelligence that rivals larger models with the efficiency needed for everyday use.</p>
+                   <a href="post/post3.html">Read more</a>
+                </div>
+            </div>
+
+            <div class="post-card">
+                <div class="post-thumbnail"></div>
+                <div class="post-content">
+                    <h3>ChatGPT's Agentic Future</h3>
+                    <p>OpenAI is transforming ChatGPT from a conversational assistant into an autonomous agent capable of completing complex, multi-step tasks with minimal human intervention.</p>
+                   <a href="post/post4.html">Read more</a>
+                </div>
+            </div>
+        </div>
     </div>
-
-
-        
-    <div class="footer-container">
-        <footer>
-            <p>&copy; 2025 My Awesome Blog. All rights reserved.</p>
-        </footer>
-    </div>
-
 </body>
-
 </html>
